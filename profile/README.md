@@ -1,5 +1,9 @@
 # Yuh Gettin' Tru
 
+<p align="center">
+  <img src="profile/images/ygt_logo_fish_combined_lightbg.png" alt="Yuh Gettin' Tru" width="400">
+</p>
+
 **Yuh Gettin' Tru?** is a Barbados-built search engine for local products and services.
 
 People search once and find what is available locally across retailer websites, Instagram-based vendors, service providers, and other local business sources.
@@ -21,11 +25,32 @@ Current focus areas:
 - Merchant reporting and demand intelligence
 - Local commerce research with FutureBARBADOS interns
 
-## Repositories
+## Active Repositories
+
+The platform has been split from the original monorepo into service-specific repositories:
 
 | Repository | Purpose |
 |---|---|
-| [`yuhgettintru`](https://github.com/Yuh-Gettin-Tru/yuhgettintru) | Main product codebase for the search engine, crawler, services, and web app |
+| [`ygt-site`](https://github.com/Yuh-Gettin-Tru/ygt-site) | Public gateway and server-rendered site (FastAPI, templates, static assets) |
+| [`ygt-search`](https://github.com/Yuh-Gettin-Tru/ygt-search) | Federated search backends: products, vendors, property, and vendor-catalog |
+| [`ygt-pipeline`](https://github.com/Yuh-Gettin-Tru/ygt-pipeline) | Crawl/extract pipeline and product CLI |
+| [`ygt-ads`](https://github.com/Yuh-Gettin-Tru/ygt-ads) | Self-service advertising portal, Stripe billing, and ad serving |
+| [`ygt-common`](https://github.com/Yuh-Gettin-Tru/ygt-common) | Shared packages: `federation-protocol`, `ssrf-policy`, `ygt-db`, `embeddings` |
+| [`ygt-infra`](https://github.com/Yuh-Gettin-Tru/ygt-infra) | Shared infrastructure, routing, backups, and deployment tooling |
+
+### Deprecated / Archived
+
+| Repository | Status |
+|---|---|
+| [`yuhgettintru`](https://github.com/Yuh-Gettin-Tru/yuhgettintru) | **Deprecated.** The original monorepo — archived and no longer actively maintained. All code has been split into the repositories above. |
+| [`ygt-embeddings`](https://github.com/Yuh-Gettin-Tru/ygt-embeddings) | **Archived.** Merged into `ygt-common` as the `embeddings/` subdirectory package. |
+
+### FutureBARBADOS Intern Repositories
+
+These repositories are used by the Future Barbados Interns programme and are separate from the production codebase:
+
+| Repository | Purpose |
+|---|---|
 | [`yuhgettintru-interns`](https://github.com/Yuh-Gettin-Tru/yuhgettintru-interns) | FutureBARBADOS internship task tracker and project workspace |
 | [`yuhgettintru-intelligence`](https://github.com/Yuh-Gettin-Tru/yuhgettintru-intelligence) | Staging intelligence and data-access workspace for approved intern analysis |
 
