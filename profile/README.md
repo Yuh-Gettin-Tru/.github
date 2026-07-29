@@ -1,7 +1,7 @@
 # Yuh Gettin' Tru
 
 <p align="center">
-  <img src="profile/images/ygt_logo_fish_combined_lightbg.png" alt="Yuh Gettin' Tru" width="400">
+  <img src="https://raw.githubusercontent.com/Yuh-Gettin-Tru/.github/main/profile/images/ygt_logo_fish_combined_lightbg.png" alt="Yuh Gettin' Tru" width="400">
 </p>
 
 **Yuh Gettin' Tru?** is a Barbados-built search engine for local products and services.
