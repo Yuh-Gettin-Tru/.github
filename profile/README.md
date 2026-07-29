@@ -29,14 +29,14 @@ Current focus areas:
 
 The platform has been split from the original monorepo into service-specific repositories:
 
-| Repository | Purpose |
-|---|---|
-| [`ygt-site`](https://github.com/Yuh-Gettin-Tru/ygt-site) | Public gateway and server-rendered site (FastAPI, templates, static assets) |
-| [`ygt-search`](https://github.com/Yuh-Gettin-Tru/ygt-search) | Federated search backends: products, vendors, property, and vendor-catalog |
-| [`ygt-pipeline`](https://github.com/Yuh-Gettin-Tru/ygt-pipeline) | Crawl/extract pipeline and product CLI |
-| [`ygt-ads`](https://github.com/Yuh-Gettin-Tru/ygt-ads) | Self-service advertising portal, Stripe billing, and ad serving |
-| [`ygt-common`](https://github.com/Yuh-Gettin-Tru/ygt-common) | Shared packages: `federation-protocol`, `ssrf-policy`, `ygt-db`, `embeddings` |
-| [`ygt-infra`](https://github.com/Yuh-Gettin-Tru/ygt-infra) | Shared infrastructure, routing, backups, and deployment tooling |
+| Repository | CI | Purpose |
+|---|---|---|
+| [`ygt-site`](https://github.com/Yuh-Gettin-Tru/ygt-site) | [![CI](https://github.com/Yuh-Gettin-Tru/ygt-site/actions/workflows/ci.yml/badge.svg)](https://github.com/Yuh-Gettin-Tru/ygt-site/actions/workflows/ci.yml) | Public gateway and server-rendered site (FastAPI, templates, static assets) |
+| [`ygt-search`](https://github.com/Yuh-Gettin-Tru/ygt-search) | [![CI](https://github.com/Yuh-Gettin-Tru/ygt-search/actions/workflows/ci.yml/badge.svg)](https://github.com/Yuh-Gettin-Tru/ygt-search/actions/workflows/ci.yml) | Federated search backends: products, vendors, property, and vendor-catalog |
+| [`ygt-pipeline`](https://github.com/Yuh-Gettin-Tru/ygt-pipeline) | — | Crawl/extract pipeline and product CLI |
+| [`ygt-ads`](https://github.com/Yuh-Gettin-Tru/ygt-ads) | [![CI](https://github.com/Yuh-Gettin-Tru/ygt-ads/actions/workflows/ci.yml/badge.svg)](https://github.com/Yuh-Gettin-Tru/ygt-ads/actions/workflows/ci.yml) | Self-service advertising portal, Stripe billing, and ad serving |
+| [`ygt-common`](https://github.com/Yuh-Gettin-Tru/ygt-common) | [![CI](https://github.com/Yuh-Gettin-Tru/ygt-common/actions/workflows/ci.yml/badge.svg)](https://github.com/Yuh-Gettin-Tru/ygt-common/actions/workflows/ci.yml) | Shared packages: `federation-protocol`, `ssrf-policy`, `ygt-db`, `embeddings` |
+| [`ygt-infra`](https://github.com/Yuh-Gettin-Tru/ygt-infra) | [![Backup](https://github.com/Yuh-Gettin-Tru/ygt-infra/actions/workflows/backup.yml/badge.svg)](https://github.com/Yuh-Gettin-Tru/ygt-infra/actions/workflows/backup.yml) | Shared infrastructure, routing, backups, and deployment tooling |
 
 ### Deprecated / Archived
 
